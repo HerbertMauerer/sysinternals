@@ -60,7 +60,10 @@ including:
 
 The best way to become familiar with Process Monitor's features is to
 read through the help file and then visit each of its menu items and
-options on a live system.  
+options on a live system.
+
+## Note on use of symbols:
+When you configure the path to DBGHELP.DLL and the symbol path uses the symbol server, the location of DBGHELP.DLL also has to contain the SYMSRV.DLL supporting the server paths used. See [SymSrv documentation](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/symsrv) or more information on how to use symbol servers.
 
 
 ## Screenshots
